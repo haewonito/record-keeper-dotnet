@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  sql-server-express:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: docker-sql-server-express
+    platform: linux/amd64
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=MyPass@word
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql
+volumes:
+  sql-data:

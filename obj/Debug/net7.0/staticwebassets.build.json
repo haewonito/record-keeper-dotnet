@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z6tVBw5eoSKJhtyD+U+FQPX5U9a9pXdayXvx301sTlY=",
+  "Source": "record-keeper-dotnet",
+  "BasePath": "_content/record-keeper-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
